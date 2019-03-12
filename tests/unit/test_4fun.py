@@ -9,3 +9,5 @@ class FAT(unittest.TestCase):
     def test_01(self):
         pass
 
+    def test_02(self):
+        self.assertTrue(False, 'Force Error')
