@@ -1,0 +1,19 @@
+language: python
+
+python:
+  - "3.5"
+
+notifications:
+  email:
+    recipients:
+      - puremonkey2007@gmail.com
+    on_failure: always
+
+# command to install dependencies
+install:
+  - make init
+
+# command to run tests
+script:
+  - make test
+  #- make lint
